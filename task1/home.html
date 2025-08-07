@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxman Kumar - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .back-button {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background-color: var(--primary-color);
+            color: var(--dark-color);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: var(--box-shadow);
+            z-index: 1001;
+            transition: var(--transition);
+        }
+        
+        .back-button:hover {
+            transform: scale(1.1);
+            box-shadow: var(--box-shadow-hover);
+        }
+        
+        .page-nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Luxman Kumar</div>
+                <ul class="nav-links">
+                    <li><a href="home.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- Technology Animation -->
+        <div class="tech-animation">
+            <div class="tech-grid"></div>
+            <!-- Tech particles will be added by JavaScript -->
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Luxman Kumar</span></h1>
+                <h2>Cyber Security and  full Stack Web Developer</h2>
+                <p>Campus Ambassador at Innovation Mission Punjab | B.Tech CSE | Cyber Security and Forensic | Linux OS | JAVA | PYTHON | Full Stack Web Developer</p>
+                <div class="cta-buttons">
+                    <a href="projects.html" class="btn primary-btn">View My Work</a>
+                    <a href="contact.html" class="btn secondary-btn">Contact Me</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://github.com/mraadrsh45" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/luxman-kumar" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-placeholder"> <img src="images/profie pic.png" alt="Luxman Kumar"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page Navigation -->
+    <div class="page-nav">
+        <a href="about.html" class="btn primary-btn">About Me</a>
+        <a href="skills.html" class="btn primary-btn">My Skills</a>
+        <a href="projects.html" class="btn primary-btn">Projects</a>
+        <a href="resume.html" class="btn primary-btn">Resume</a>
+        <a href="contact.html" class="btn primary-btn">Contact</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2023 Luxman Kumar. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="home.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="skills.html">Skills</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="resume.html">Resume</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

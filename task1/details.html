@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxman Kumar - Project Details</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .back-button {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background-color: var(--primary-color);
+            color: var(--dark-color);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: var(--box-shadow);
+            z-index: 1001;
+            transition: var(--transition);
+        }
+        
+        .back-button:hover {
+            transform: scale(1.1);
+            box-shadow: var(--box-shadow-hover);
+        }
+        
+        .project-details {
+            padding: 80px 0;
+        }
+        
+        .project-details-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: start;
+        }
+        
+        .project-details-image {
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--box-shadow);
+        }
+        
+        .project-details-image img {
+            width: 100%;
+            height: auto;
+            transition: var(--transition);
+        }
+        
+        .project-details-info {
+            background-color: var(--card-bg);
+            border-radius: var(--border-radius);
+            padding: 30px;
+            box-shadow: var(--box-shadow);
+        }
+        
+        .project-details-info h2 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+        
+        .project-details-info p {
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+        
+        .project-details-meta {
+            margin: 30px 0;
+        }
+        
+        .project-details-meta h3 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        
+        .project-details-meta ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .project-details-meta li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .project-details-meta li i {
+            color: var(--primary-color);
+            margin-right: 10px;
+            width: 20px;
+        }
+        
+        .project-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        
+        .project-tags span {
+            background-color: rgba(var(--primary-rgb), 0.1);
+            color: var(--primary-color);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        
+        .project-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+        }
+        
+        .project-gallery {
+            margin-top: 60px;
+        }
+        
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .gallery-item {
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--box-shadow);
+            transition: var(--transition);
+        }
+        
+        .gallery-item:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--box-shadow-hover);
+        }
+        
+        @media (max-width: 768px) {
+            .project-details-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Back Button -->
+    <a href="projects.html" class="back-button">
+        <i class="fas fa-arrow-left"></i>
+    </a>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Luxman Kumar</div>
+                <ul class="nav-links">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Project Details Section -->
+    <section class="project-details">
+        <div class="container">
+            <div class="project-details-content">
+                <div class="project-details-image">
+                    <img src="images/placeholder.svg" alt="Project Image">
+                </div>
+                <div class="project-details-info">
+                    <h2>Project Title</h2>
+                    <p>This is a detailed description of the project. It explains the purpose, features, and technologies used in the project. The description provides an overview of what the project does and how it works.</p>
+                    <p>The project was developed to solve a specific problem or meet a particular need. It includes various features and functionalities that make it useful and effective.</p>
+                    
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Security</span>
+                    </div>
+                    
+                    <div class="project-details-meta">
+                        <h3>Project Details</h3>
+                        <ul>
+                            <li><i class="fas fa-calendar"></i> <strong>Date:</strong> January 2023</li>
+                            <li><i class="fas fa-code"></i> <strong>Technologies:</strong> HTML, CSS, JavaScript</li>
+                            <li><i class="fas fa-user"></i> <strong>Client:</strong> Personal Project</li>
+                            <li><i class="fas fa-link"></i> <strong>Category:</strong> Web Development</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="btn primary-btn">Live Demo</a>
+                        <a href="https://github.com/mraadrsh45" target="_blank" class="btn secondary-btn">Source Code</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-gallery">
+                <h2 class="section-title">Project Gallery</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="images/placeholder.svg" alt="Gallery Image 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/placeholder.svg" alt="Gallery Image 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/placeholder.svg" alt="Gallery Image 3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2023 Luxman Kumar. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="home.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="skills.html">Skills</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="resume.html">Resume</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

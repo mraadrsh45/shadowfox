@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxman Kumar - Projects</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .back-button {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background-color: var(--primary-color);
+            color: var(--dark-color);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: var(--box-shadow);
+            z-index: 1001;
+            transition: var(--transition);
+        }
+        
+        .back-button:hover {
+            transform: scale(1.1);
+            box-shadow: var(--box-shadow-hover);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Back Button -->
+    <a href="home.html" class="back-button">
+        <i class="fas fa-arrow-left"></i>
+    </a>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Luxman Kumar</div>
+                <ul class="nav-links">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="cyber">Cybersecurity</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="tools">Tools</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 - Grocery Inventory System -->
+                <div class="project-card" data-category="tools">
+                    <div class="project-img">
+                        <img src="images/Colorful Illustrative Organic Grocery Online Shop Logo.png" alt="Grocery Inventory System">
+                    </div>
+                    <div class="project-info">
+                        <h3>Grocery Inventory System with Barcode Scanning</h3>
+                        <p>A web-based grocery inventory management system with barcode scanning functionality. This application allows users to scan barcodes, retrieve product information, and print product labels.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>OpenCV</span>
+                            <span>SQLAlchemy</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn small-btn">Live Demo</a>
+                            <a href="https://github.com/mraadrsh45/fully-automatic-Barcode-scanner-for-robot" target="_blank" class="btn small-btn">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card" data-category="cyber">
+                    <div class="project-img">
+                        <img src="images/vulnerscan.jpg" alt="Vulnerability Scanner">
+                    </div>
+                    <div class="project-info">
+                        <h3>Vulnerability Scanner</h3>
+                        <p>A tool for identifying security vulnerabilities in web applications and servers.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Security</span>
+                            <span>Penetration Testing</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn small-btn">Live Demo</a>
+                            <a href="https://github.com/mraadrsh45" target="_blank" class="btn small-btn">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card" data-category="cyber">
+                    <div class="project-img">
+                        <img src="images/secureencrypt.jpg" alt="Encryption Tool">
+                    </div>
+                    <div class="project-info">
+                        <h3>Data Encryption Tool</h3>
+                        <p>A secure encryption and decryption tool for protecting sensitive data.</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Cryptography</span>
+                            <span>Security</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn small-btn">Live Demo</a>
+                            <a href="https://github.com/mraadrsh45" target="_blank" class="btn small-btn">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-img">
+                        <img src="images/secureaccess.jpg" alt="Secure Web Portal">
+                    </div>
+                    <div class="project-info">
+                        <h3>Secure Web Portal</h3>
+                        <p>A web portal with enhanced security features and user authentication.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Security</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn small-btn">Live Demo</a>
+                            <a href="https://github.com/mraadrsh45" target="_blank" class="btn small-btn">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 5 -->
+                <div class="project-card" data-category="tools">
+                    <div class="project-img">
+                        <img src="images/network traffic monitor.jpg" alt="Network Monitor">
+                    </div>
+                    <div class="project-info">
+                        <h3>Network Traffic Monitor</h3>
+                        <p>A tool for monitoring and analyzing network traffic for security purposes.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Networking</span>
+                            <span>Security</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn small-btn">Live Demo</a>
+                            <a href="https://github.com/mraadrsh45" target="_blank" class="btn small-btn">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 6 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-img">
+                        <img src="images/luxman portfolio .jpg" alt="Portfolio Website">
+                    </div>
+                    <div class="project-info">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>A responsive personal portfolio website built with HTML, CSS, and JavaScript.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn small-btn">Live Demo</a>
+                            <a href="https://github.com/mraadrsh45" target="_blank" class="btn small-btn">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 7 -->
+                <div class="project-card" data-category="tools">
+                    <div class="project-img">
+                        <img src="images/secureaudit.jpg" alt="Security Audit Tool">
+                    </div>
+                    <div class="project-info">
+                        <h3>Security Audit Tool</h3>
+                        <p>A comprehensive tool for conducting security audits and vulnerability assessments.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Security</span>
+                            <span>Auditing</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn small-btn">Live Demo</a>
+                            <a href="https://github.com/mraadrsh45" target="_blank" class="btn small-btn">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2023 Luxman Kumar. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="home.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="skills.html">Skills</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="resume.html">Resume</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
