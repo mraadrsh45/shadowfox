@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" width="300" height="400">
+  <!-- Background -->
+  <rect width="300" height="400" fill="#004b9e"/>
+  
+  <!-- Player Silhouette -->
+  <path d="M150,80 C180,80 200,100 200,130 C200,150 190,165 175,175 L175,190 C175,190 185,195 185,210 L185,250 C185,250 175,280 150,280 C125,280 115,250 115,250 L115,210 C115,195 125,190 125,190 L125,175 C110,165 100,150 100,130 C100,100 120,80 150,80 Z" fill="#ffffff"/>
+  
+  <!-- Jersey -->
+  <path d="M125,175 L125,190 C125,190 115,195 115,210 L115,250 C115,250 125,280 150,280 C175,280 185,250 185,250 L185,210 C185,195 175,190 175,190 L175,175 C175,175 165,185 150,185 C135,185 125,175 125,175 Z" fill="#004b9e"/>
+  
+  <!-- MI Logo -->
+  <text x="150" y="230" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle">MI</text>
+  
+  <!-- Player Name -->
+  <text x="150" y="320" font-family="Arial" font-size="20" fill="#ffffff" text-anchor="middle">Krunal Pandya</text>
+  
+  <!-- Player Number -->
+  <text x="150" y="350" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle">#24</text>
+</svg>

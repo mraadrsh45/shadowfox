@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Roboto, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#004ba0">Mumbai Indians Management Structure</text>
+  
+  <!-- Ownership Level -->
+  <g transform="translate(400, 100)">
+    <!-- Owner Box -->
+    <rect x="-150" y="-40" width="300" height="80" rx="10" ry="10" fill="#004ba0" stroke="#f9a01b" stroke-width="2"/>
+    <text x="0" y="-10" font-family="Roboto, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#ffffff">Ownership</text>
+    <text x="0" y="15" font-family="Roboto, sans-serif" font-size="14" text-anchor="middle" fill="#ffffff">Nita Ambani</text>
+    <text x="0" y="35" font-family="Roboto, sans-serif" font-size="14" text-anchor="middle" fill="#ffffff">Akash Ambani</text>
+    
+    <!-- Vertical Line to Next Level -->
+    <line x1="0" y1="40" x2="0" y2="80" stroke="#004ba0" stroke-width="2"/>
+  </g>
+  
+  <!-- Leadership Level -->
+  <g transform="translate(400, 200)">
+    <!-- Leadership Box -->
+    <rect x="-200" y="-40" width="400" height="80" rx="10" ry="10" fill="#0277bd" stroke="#f9a01b" stroke-width="2"/>
+    <text x="0" y="-10" font-family="Roboto, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#ffffff">Global Leadership</text>
+    <text x="-100" y="15" font-family="Roboto, sans-serif" font-size="14" text-anchor="middle" fill="#ffffff">Zaheer Khan</text>
+    <text x="-100" y="35" font-family="Roboto, sans-serif" font-size="12" text-anchor="middle" fill="#ffffff">Global Head of Cricket Development</text>
+    <text x="100" y="15" font-family="Roboto, sans-serif" font-size="14" text-anchor="middle" fill="#ffffff">Mahela Jayawardene</text>
+    <text x="100" y="35" font-family="Roboto, sans-serif" font-size="12" text-anchor="middle" fill="#ffffff">Global Head of Performance</text>
+    
+    <!-- Vertical Line to Next Level -->
+    <line x1="0" y1="40" x2="0" y2="80" stroke="#004ba0" stroke-width="2"/>
+  </g>
+  
+  <!-- Coaching Staff Level -->
+  <g transform="translate(400, 300)">
+    <!-- Coaching Box -->
+    <rect x="-250" y="-40" width="500" height="80" rx="10" ry="10" fill="#039be5" stroke="#f9a01b" stroke-width="2"/>
+    <text x="0" y="-10" font-family="Roboto, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#ffffff">Coaching Staff</text>
+    <text x="-150" y="15" font-family="Roboto, sans-serif" font-size="14" text-anchor="middle" fill="#ffffff">Mark Boucher</text>
+    <text x="-150" y="35" font-family="Roboto, sans-serif" font-size="12" text-anchor="middle" fill="#ffffff">Head Coach</text>
+    <text x="0" y="15" font-family="Roboto, sans-serif" font-size="14" text-anchor="middle" fill="#ffffff">Robin Singh</text>
+    <text x="0" y="35" font-family="Roboto, sans-serif" font-size="12" text-anchor="middle" fill="#ffffff">Batting Coach</text>
+    <text x="150" y="15" font-family="Roboto, sans-serif" font-size="14" text-anchor="middle" fill="#ffffff">Support Staff</text>
+    <text x="150" y="35" font-family="Roboto, sans-serif" font-size="12" text-anchor="middle" fill="#ffffff">Various Specialists</text>
+    
+    <!-- Vertical Line to Next Level -->
+    <line x1="0" y1="40" x2="0" y2="80" stroke="#004ba0" stroke-width="2"/>
+  </g>
+  
+  <!-- Team Level -->
+  <g transform="translate(400, 400)">
+    <!-- Team Box -->
+    <rect x="-200" y="-40" width="400" height="80" rx="10" ry="10" fill="#29b6f6" stroke="#f9a01b" stroke-width="2"/>
+    <text x="0" y="-10" font-family="Roboto, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#ffffff">Team</text>
+    <text x="-100" y="15" font-family="Roboto, sans-serif" font-size="14" text-anchor="middle" fill="#ffffff">Rohit Sharma</text>
+    <text x="-100" y="35" font-family="Roboto, sans-serif" font-size="12" text-anchor="middle" fill="#ffffff">Captain</text>
+    <text x="100" y="15" font-family="Roboto, sans-serif" font-size="14" text-anchor="middle" fill="#ffffff">Team Members</text>
+    <text x="100" y="35" font-family="Roboto, sans-serif" font-size="12" text-anchor="middle" fill="#ffffff">Players & Support Staff</text>
+  </g>
+  
+  <!-- Key Achievements -->
+  <g transform="translate(400, 500)">
+    <rect x="-350" y="-30" width="700" height="60" rx="10" ry="10" fill="#ffffff" stroke="#004ba0" stroke-width="2"/>
+    <text x="0" y="0" font-family="Roboto, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#004ba0">Key Achievement: 5 IPL Championships (2013, 2015, 2017, 2019, 2020)</text>
+    <text x="0" y="25" font-family="Roboto, sans-serif" font-size="14" text-anchor="middle" fill="#333">Most successful franchise in IPL history</text>
+  </g>
+  
+  <!-- Team Colors Legend -->
+  <g transform="translate(650, 550)">
+    <rect x="0" y="0" width="20" height="20" fill="#004ba0"/>
+    <text x="30" y="15" font-family="Roboto, sans-serif" font-size="12" fill="#333">Mumbai Indians Blue</text>
+    
+    <rect x="0" y="25" width="20" height="20" fill="#f9a01b"/>
+    <text x="30" y="40" font-family="Roboto, sans-serif" font-size="12" fill="#333">Mumbai Indians Gold</text>
+  </g>
+</svg>

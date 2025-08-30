@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Roboto, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#004ba0">Mumbai Indians Team History Timeline</text>
+  
+  <!-- Timeline Line -->
+  <line x1="100" y1="100" x2="100" y2="550" stroke="#004ba0" stroke-width="4"/>
+  
+  <!-- Timeline Events -->
+  <!-- 2008: Inception -->
+  <g transform="translate(100, 100)">
+    <circle cx="0" cy="0" r="10" fill="#f9a01b" stroke="#004ba0" stroke-width="2"/>
+    <line x1="0" y1="0" x2="50" y2="0" stroke="#004ba0" stroke-width="2"/>
+    <rect x="50" y="-40" width="600" height="80" rx="10" ry="10" fill="#ffffff" stroke="#004ba0" stroke-width="1"/>
+    <text x="70" y="-15" font-family="Roboto, sans-serif" font-size="16" font-weight="bold" fill="#004ba0">2008: Inception</text>
+    <text x="70" y="10" font-family="Roboto, sans-serif" font-size="14" fill="#333">Mumbai Indians was founded in 2008 during the inaugural season of the IPL.</text>
+    <text x="70" y="30" font-family="Roboto, sans-serif" font-size="14" fill="#333">The team was purchased by Reliance Industries for $111.9 million.</text>
+  </g>
+  
+  <!-- 2010: First Final -->
+  <g transform="translate(100, 175)">
+    <circle cx="0" cy="0" r="10" fill="#f9a01b" stroke="#004ba0" stroke-width="2"/>
+    <line x1="0" y1="0" x2="50" y2="0" stroke="#004ba0" stroke-width="2"/>
+    <rect x="50" y="-40" width="600" height="80" rx="10" ry="10" fill="#ffffff" stroke="#004ba0" stroke-width="1"/>
+    <text x="70" y="-15" font-family="Roboto, sans-serif" font-size="16" font-weight="bold" fill="#004ba0">2010: First Final</text>
+    <text x="70" y="10" font-family="Roboto, sans-serif" font-size="14" fill="#333">Mumbai Indians reached their first IPL final but lost to Chennai Super Kings.</text>
+    <text x="70" y="30" font-family="Roboto, sans-serif" font-size="14" fill="#333">Sachin Tendulkar won the Orange Cap for scoring the most runs in the tournament.</text>
+  </g>
+  
+  <!-- 2013: First IPL Trophy -->
+  <g transform="translate(100, 250)">
+    <circle cx="0" cy="0" r="10" fill="#f9a01b" stroke="#004ba0" stroke-width="2"/>
+    <line x1="0" y1="0" x2="50" y2="0" stroke="#004ba0" stroke-width="2"/>
+    <rect x="50" y="-40" width="600" height="80" rx="10" ry="10" fill="#ffffff" stroke="#004ba0" stroke-width="1"/>
+    <text x="70" y="-15" font-family="Roboto, sans-serif" font-size="16" font-weight="bold" fill="#004ba0">2013: First IPL Trophy</text>
+    <text x="70" y="10" font-family="Roboto, sans-serif" font-size="14" fill="#333">Under the captaincy of Rohit Sharma, Mumbai Indians won their first IPL title</text>
+    <text x="70" y="30" font-family="Roboto, sans-serif" font-size="14" fill="#333">by defeating Chennai Super Kings in the final.</text>
+  </g>
+  
+  <!-- 2015: Second Championship -->
+  <g transform="translate(100, 325)">
+    <circle cx="0" cy="0" r="10" fill="#f9a01b" stroke="#004ba0" stroke-width="2"/>
+    <line x1="0" y1="0" x2="50" y2="0" stroke="#004ba0" stroke-width="2"/>
+    <rect x="50" y="-40" width="600" height="80" rx="10" ry="10" fill="#ffffff" stroke="#004ba0" stroke-width="1"/>
+    <text x="70" y="-15" font-family="Roboto, sans-serif" font-size="16" font-weight="bold" fill="#004ba0">2015: Second Championship</text>
+    <text x="70" y="10" font-family="Roboto, sans-serif" font-size="14" fill="#333">Mumbai Indians claimed their second IPL title by defeating</text>
+    <text x="70" y="30" font-family="Roboto, sans-serif" font-size="14" fill="#333">Chennai Super Kings in the final at Eden Gardens.</text>
+  </g>
+  
+  <!-- 2017: Third Championship -->
+  <g transform="translate(100, 400)">
+    <circle cx="0" cy="0" r="10" fill="#f9a01b" stroke="#004ba0" stroke-width="2"/>
+    <line x1="0" y1="0" x2="50" y2="0" stroke="#004ba0" stroke-width="2"/>
+    <rect x="50" y="-40" width="600" height="80" rx="10" ry="10" fill="#ffffff" stroke="#004ba0" stroke-width="1"/>
+    <text x="70" y="-15" font-family="Roboto, sans-serif" font-size="16" font-weight="bold" fill="#004ba0">2017: Third Championship</text>
+    <text x="70" y="10" font-family="Roboto, sans-serif" font-size="14" fill="#333">Mumbai Indians won their third IPL title by defeating</text>
+    <text x="70" y="30" font-family="Roboto, sans-serif" font-size="14" fill="#333">Rising Pune Supergiant in a thrilling final by just 1 run.</text>
+  </g>
+  
+  <!-- 2019: Fourth Championship -->
+  <g transform="translate(100, 475)">
+    <circle cx="0" cy="0" r="10" fill="#f9a01b" stroke="#004ba0" stroke-width="2"/>
+    <line x1="0" y1="0" x2="50" y2="0" stroke="#004ba0" stroke-width="2"/>
+    <rect x="50" y="-40" width="600" height="80" rx="10" ry="10" fill="#ffffff" stroke="#004ba0" stroke-width="1"/>
+    <text x="70" y="-15" font-family="Roboto, sans-serif" font-size="16" font-weight="bold" fill="#004ba0">2019: Fourth Championship</text>
+    <text x="70" y="10" font-family="Roboto, sans-serif" font-size="14" fill="#333">Mumbai Indians secured their fourth IPL title by defeating Chennai Super Kings</text>
+    <text x="70" y="30" font-family="Roboto, sans-serif" font-size="14" fill="#333">in the final by 1 run, becoming the most successful team in IPL history.</text>
+  </g>
+  
+  <!-- 2020: Fifth Championship -->
+  <g transform="translate(100, 550)">
+    <circle cx="0" cy="0" r="10" fill="#f9a01b" stroke="#004ba0" stroke-width="2"/>
+    <line x1="0" y1="0" x2="50" y2="0" stroke="#004ba0" stroke-width="2"/>
+    <rect x="50" y="-40" width="600" height="80" rx="10" ry="10" fill="#ffffff" stroke="#004ba0" stroke-width="1"/>
+    <text x="70" y="-15" font-family="Roboto, sans-serif" font-size="16" font-weight="bold" fill="#004ba0">2020: Fifth Championship</text>
+    <text x="70" y="10" font-family="Roboto, sans-serif" font-size="14" fill="#333">Mumbai Indians won their fifth IPL title by defeating Delhi Capitals in the final,</text>
+    <text x="70" y="30" font-family="Roboto, sans-serif" font-size="14" fill="#333">further cementing their status as the most successful IPL franchise.</text>
+  </g>
+</svg>

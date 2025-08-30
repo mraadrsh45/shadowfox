@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <!-- Background -->
+  <rect width="300" height="300" fill="#f5f5f5"/>
+  
+  <!-- Person silhouette -->
+  <circle cx="150" cy="100" r="60" fill="#90caf9"/>
+  <path d="M150,170 L150,250 M100,200 L150,170 L200,200" stroke="#1976d2" stroke-width="10" fill="none"/>
+  
+  <!-- Mumbai Indians branding -->
+  <rect x="50" y="260" width="200" height="30" fill="#003b7a" rx="5" ry="5"/>
+  <text x="150" y="280" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Mumbai Indians Management</text>
+  
+  <!-- Name tag -->
+  <rect x="75" y="220" width="150" height="25" fill="#003b7a" rx="5" ry="5"/>
+  <text x="150" y="237" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Mahela Jayawardene</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f5f5f5"/>
+  
+  <!-- News image content -->
+  <rect x="50" y="50" width="300" height="200" fill="#003b7a" rx="10" ry="10"/>
+  
+  <!-- Mumbai Indians logo -->
+  <circle cx="200" cy="120" r="50" fill="#0078bc"/>
+  <text x="200" y="130" font-family="Arial" font-size="30" font-weight="bold" text-anchor="middle" fill="white">MI</text>
+  
+  <!-- News headline -->
+  <rect x="75" y="190" width="250" height="40" fill="white" rx="5" ry="5" opacity="0.9"/>
+  <text x="200" y="217" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#003b7a">COACHING STAFF ANNOUNCEMENT</text>
+</svg>

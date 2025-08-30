@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="100" viewBox="0 0 200 100">
+  <!-- Background -->
+  <rect width="200" height="100" fill="white" rx="10" ry="10"/>
+  
+  <!-- Sponsor logo -->
+  <circle cx="100" cy="50" r="40" fill="#e53935"/>
+  <text x="100" y="60" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="white">SPONSOR 1</text>
+</svg>

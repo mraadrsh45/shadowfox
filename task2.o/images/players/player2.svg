@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="400" viewBox="0 0 300 400">
+  <!-- Background -->
+  <rect width="300" height="400" fill="#f5f5f5"/>
+  
+  <!-- Player silhouette -->
+  <circle cx="150" cy="100" r="70" fill="#003b7a"/>
+  <path d="M150,180 L150,300 M100,240 L150,180 L200,240" stroke="#003b7a" stroke-width="15" fill="none"/>
+  
+  <!-- Mumbai Indians jersey -->
+  <rect x="110" y="180" width="80" height="120" fill="#0078bc" rx="5" ry="5"/>
+  <text x="150" y="240" font-family="Arial" font-size="30" text-anchor="middle" fill="white">93</text>
+  
+  <!-- Name tag -->
+  <rect x="50" y="320" width="200" height="40" fill="#003b7a" rx="5" ry="5"/>
+  <text x="150" y="347" font-family="Arial" font-size="20" text-anchor="middle" fill="white">Jasprit Bumrah</text>
+</svg>

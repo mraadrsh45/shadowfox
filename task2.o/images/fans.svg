@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f5f5f5"/>
+  
+  <!-- Stadium background -->
+  <rect x="0" y="100" width="600" height="300" fill="#2e7d32" opacity="0.2"/>
+  
+  <!-- Crowd silhouettes -->
+  <!-- Row 1 -->
+  <circle cx="50" cy="150" r="20" fill="#003b7a"/>
+  <circle cx="100" cy="150" r="20" fill="#003b7a"/>
+  <circle cx="150" cy="150" r="20" fill="#003b7a"/>
+  <circle cx="200" cy="150" r="20" fill="#003b7a"/>
+  <circle cx="250" cy="150" r="20" fill="#003b7a"/>
+  <circle cx="300" cy="150" r="20" fill="#003b7a"/>
+  <circle cx="350" cy="150" r="20" fill="#003b7a"/>
+  <circle cx="400" cy="150" r="20" fill="#003b7a"/>
+  <circle cx="450" cy="150" r="20" fill="#003b7a"/>
+  <circle cx="500" cy="150" r="20" fill="#003b7a"/>
+  <circle cx="550" cy="150" r="20" fill="#003b7a"/>
+  
+  <!-- Row 2 -->
+  <circle cx="75" cy="200" r="20" fill="#003b7a"/>
+  <circle cx="125" cy="200" r="20" fill="#003b7a"/>
+  <circle cx="175" cy="200" r="20" fill="#003b7a"/>
+  <circle cx="225" cy="200" r="20" fill="#003b7a"/>
+  <circle cx="275" cy="200" r="20" fill="#003b7a"/>
+  <circle cx="325" cy="200" r="20" fill="#003b7a"/>
+  <circle cx="375" cy="200" r="20" fill="#003b7a"/>
+  <circle cx="425" cy="200" r="20" fill="#003b7a"/>
+  <circle cx="475" cy="200" r="20" fill="#003b7a"/>
+  <circle cx="525" cy="200" r="20" fill="#003b7a"/>
+  
+  <!-- Row 3 -->
+  <circle cx="50" cy="250" r="20" fill="#003b7a"/>
+  <circle cx="100" cy="250" r="20" fill="#003b7a"/>
+  <circle cx="150" cy="250" r="20" fill="#003b7a"/>
+  <circle cx="200" cy="250" r="20" fill="#003b7a"/>
+  <circle cx="250" cy="250" r="20" fill="#003b7a"/>
+  <circle cx="300" cy="250" r="20" fill="#003b7a"/>
+  <circle cx="350" cy="250" r="20" fill="#003b7a"/>
+  <circle cx="400" cy="250" r="20" fill="#003b7a"/>
+  <circle cx="450" cy="250" r="20" fill="#003b7a"/>
+  <circle cx="500" cy="250" r="20" fill="#003b7a"/>
+  <circle cx="550" cy="250" r="20" fill="#003b7a"/>
+  
+  <!-- Mumbai Indians flags -->
+  <rect x="125" y="50" width="50" height="30" fill="#0078bc"/>
+  <rect x="300" y="30" width="50" height="30" fill="#0078bc"/>
+  <rect x="475" y="50" width="50" height="30" fill="#0078bc"/>
+  
+  <!-- Text label -->
+  <rect x="150" y="320" width="300" height="40" fill="#003b7a" rx="10" ry="10"/>
+  <text x="300" y="347" font-family="Arial" font-size="20" text-anchor="middle" fill="white">MUMBAI INDIANS FANS</text>
+</svg>

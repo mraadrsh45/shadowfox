@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Roboto, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#004ba0">Mumbai Indians Team Achievements</text>
+  
+  <!-- Achievement Cards -->
+  <g transform="translate(50, 80)">
+    <!-- IPL Championships Card -->
+    <g transform="translate(0, 0)">
+      <rect width="200" height="150" rx="10" ry="10" fill="#ffffff" stroke="#004ba0" stroke-width="2"/>
+      <circle cx="100" cy="50" r="30" fill="#004ba0" opacity="0.9"/>
+      <text x="100" y="55" font-family="Roboto, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#ffffff">5</text>
+      <text x="100" y="100" font-family="Roboto, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">IPL Championships</text>
+      <text x="100" y="125" font-family="Roboto, sans-serif" font-size="12" text-anchor="middle" fill="#666">2013, 2015, 2017, 2019, 2020</text>
+    </g>
+    
+    <!-- Champions League T20 Card -->
+    <g transform="translate(250, 0)">
+      <rect width="200" height="150" rx="10" ry="10" fill="#ffffff" stroke="#004ba0" stroke-width="2"/>
+      <circle cx="100" cy="50" r="30" fill="#004ba0" opacity="0.9"/>
+      <text x="100" y="55" font-family="Roboto, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#ffffff">1</text>
+      <text x="100" y="100" font-family="Roboto, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Champions League T20</text>
+      <text x="100" y="125" font-family="Roboto, sans-serif" font-size="12" text-anchor="middle" fill="#666">2011</text>
+    </g>
+    
+    <!-- IPL Runners-up Card -->
+    <g transform="translate(500, 0)">
+      <rect width="200" height="150" rx="10" ry="10" fill="#ffffff" stroke="#004ba0" stroke-width="2"/>
+      <circle cx="100" cy="50" r="30" fill="#004ba0" opacity="0.9"/>
+      <text x="100" y="55" font-family="Roboto, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#ffffff">1</text>
+      <text x="100" y="100" font-family="Roboto, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">IPL Runners-up</text>
+      <text x="100" y="125" font-family="Roboto, sans-serif" font-size="12" text-anchor="middle" fill="#666">2010</text>
+    </g>
+    
+    <!-- Playoff Appearances Card -->
+    <g transform="translate(0, 180)">
+      <rect width="200" height="150" rx="10" ry="10" fill="#ffffff" stroke="#004ba0" stroke-width="2"/>
+      <circle cx="100" cy="50" r="30" fill="#004ba0" opacity="0.9"/>
+      <text x="100" y="55" font-family="Roboto, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#ffffff">10</text>
+      <text x="100" y="100" font-family="Roboto, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Playoff Appearances</text>
+      <text x="100" y="125" font-family="Roboto, sans-serif" font-size="12" text-anchor="middle" fill="#666">Most by any IPL team</text>
+    </g>
+    
+    <!-- Highest Win Percentage Card -->
+    <g transform="translate(250, 180)">
+      <rect width="200" height="150" rx="10" ry="10" fill="#ffffff" stroke="#004ba0" stroke-width="2"/>
+      <circle cx="100" cy="50" r="30" fill="#004ba0" opacity="0.9"/>
+      <text x="100" y="55" font-family="Roboto, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#ffffff">59.24%</text>
+      <text x="100" y="100" font-family="Roboto, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Highest Win Percentage</text>
+      <text x="100" y="125" font-family="Roboto, sans-serif" font-size="12" text-anchor="middle" fill="#666">Among all IPL teams</text>
+    </g>
+    
+    <!-- Most Consecutive Wins Card -->
+    <g transform="translate(500, 180)">
+      <rect width="200" height="150" rx="10" ry="10" fill="#ffffff" stroke="#004ba0" stroke-width="2"/>
+      <circle cx="100" cy="50" r="30" fill="#004ba0" opacity="0.9"/>
+      <text x="100" y="55" font-family="Roboto, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#ffffff">10</text>
+      <text x="100" y="100" font-family="Roboto, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Most Consecutive Wins</text>
+      <text x="100" y="125" font-family="Roboto, sans-serif" font-size="12" text-anchor="middle" fill="#666">2020-2021</text>
+    </g>
+  </g>
+  
+  <!-- Team Colors -->
+  <g transform="translate(250, 380)">
+    <rect x="0" y="0" width="300" height="60" rx="5" ry="5" fill="#004ba0"/>
+    <rect x="0" y="30" width="300" height="30" rx="0" ry="0" fill="#f9a01b"/>
+    <text x="150" y="20" font-family="Roboto, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">Mumbai Indians</text>
+    <text x="150" y="50" font-family="Roboto, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">Team Colors: Blue and Gold</text>
+  </g>
+  
+  <!-- Footer -->
+  <text x="400" y="480" font-family="Roboto, sans-serif" font-size="12" text-anchor="middle" fill="#666">Most Successful IPL Franchise - Mumbai Indians</text>
+</svg>

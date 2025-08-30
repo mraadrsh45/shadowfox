@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Mumbai Indians Logo -->
+  <circle cx="100" cy="100" r="90" fill="#004BA0" />
+  <circle cx="100" cy="100" r="80" fill="#004BA0" stroke="#FFFFFF" stroke-width="2" />
+  <path d="M50 70 L50 130 L70 130 L70 70 Z" fill="#FFFFFF" />
+  <path d="M85 70 L85 130 L105 130 L105 70 Z" fill="#FFFFFF" />
+  <path d="M120 70 L120 130 L140 130 L140 70 Z" fill="#FFFFFF" />
+  <path d="M50 70 L140 70 L140 85 L50 85 Z" fill="#FFFFFF" />
+  <text x="100" y="155" font-family="Arial" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">MUMBAI INDIANS</text>
+</svg>
